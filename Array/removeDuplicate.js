@@ -52,7 +52,7 @@
 
 function removeDuplicate(arr) {
   let pointer1 = 0;
-  if (!Array.isArray(arr)) return 'Please it accept only the num Array'
+  if (!Array.isArray(arr)) return 'It accept only the num Array'
   for (let pointer2 = 0; pointer2 < arr.length; pointer2++) {
     if (arr[pointer1] < arr[pointer2]) {
       pointer1++;
